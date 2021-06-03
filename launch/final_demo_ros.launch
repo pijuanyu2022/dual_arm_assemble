@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+
+<launch>
+	<node pkg="dual_arm_assemble" output="screen" type="final_demo_ros.py" name="final_demo_ros"/>
+</launch>
