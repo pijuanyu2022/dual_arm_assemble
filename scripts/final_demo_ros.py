@@ -14,7 +14,7 @@ import geometry_msgs.msg
 from tf.transformations import quaternion_from_euler
 
 #import modern_robotics as mr
-sys.path.append(os.path.join(rospkg.RosPack().get_path('me_cs301_robots'), 'scripts'))
+sys.path.append(os.path.join(rospkg.RosPack().get_path('dual_arm_assemble'), 'scripts'))
 from robot_control import RobotControl
 
 '''
